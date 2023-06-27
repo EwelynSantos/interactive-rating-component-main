@@ -15,6 +15,16 @@ body {
   @include flex-container;
   border-radius: 5%;
   margin-top: 30px;
+
+@media(max-width:470px){
+  width: 65%;
+}
+
+
+  @media(min-width:471px) and (max-width:600px){
+    width: 50%;
+  }
+
 }
 
 #card-front {

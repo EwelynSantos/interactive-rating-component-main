@@ -18,6 +18,16 @@ body {
   border-radius: 5%;
   margin-top: 30px;
 }
+@media (max-width: 470px) {
+  #card-principal {
+    width: 65%;
+  }
+}
+@media (min-width: 471px) and (max-width: 600px) {
+  #card-principal {
+    width: 50%;
+  }
+}
 
 #card-front.hide {
   display: none;
