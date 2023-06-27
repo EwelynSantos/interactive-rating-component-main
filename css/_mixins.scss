@@ -1,0 +1,32 @@
+@mixin font($size: 15px, $weight) {
+  font-family: 'Overpass', sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin font-big {
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@mixin font-small {
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+@mixin flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin container-ball{
+  background-color: $dark-blue;
+  border-radius: 50%;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+}
